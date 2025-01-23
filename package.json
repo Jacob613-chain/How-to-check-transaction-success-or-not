@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@ton/ton": "^15.1.0",
+    "tonapi-sdk-js": "^2.0.7"
+  },
+  "type": "module"
+}
+
