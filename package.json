@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "@ton/ton": "^15.1.0",
-    "tonapi-sdk-js": "^2.0.7"
+    "tonapi-sdk-js": "^2.0.7",
+    "tonweb": "^0.0.66"
   },
   "type": "module"
 }
-

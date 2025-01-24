@@ -18,8 +18,9 @@ const client = new Api(httpClient);
 
 (async () => {
     try {
-        const trace = await client.traces.getTrace("70db1417c2d783d6aaf6b3782d2ccc665b8034bc92cceceeb69e0589833caabe");
-        console.log(isTraceSuccess(trace))
+        const trace = await client.traces.getTrace("2cb17c88f97d4aa8cfa9df35e73dbde07ecfb405f9d967b9296ada9174028200");
+        // console.log(trace);
+        isTraceSuccess(trace);
     } catch (error) {
         console.error('Error fetching trace:', error.message, error.cause);
     }
